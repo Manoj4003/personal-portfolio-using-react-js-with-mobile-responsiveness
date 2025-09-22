@@ -1,6 +1,6 @@
 /* Navbar Background */
 .custom-navbar {
-  background-color: #1a1a1a; /* Solid dark */
+  background-color: #1b949b; /* Solid dark */
   padding: 0.8rem 0;
   height: 100px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -19,6 +19,15 @@
 .brand-wrapper:hover {
   color: #ff4c60; /* Matches "Hi!" color */
   transition: 0.3s;
+}
+.brand-wrapper-icon{
+  font-size: 30px !important;
+  margin: 20px;
+}
+.brand-wrapper-icon {
+color: #ffb347;
+  border-radius: 50%;
+
 }
 
 /* Nav links styling */

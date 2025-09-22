@@ -6,7 +6,7 @@ function AppNavbar() {
   return (
     <Navbar collapseOnSelect expand="md" className="custom-navbar" fixed="top" variant="dark">
       <Container>
-        <Navbar.Brand href="#home" className="brand-wrapper">Manojkumar</Navbar.Brand>
+        <Navbar.Brand href="#home" className="brand-wrapper fw-bolder fs-2 text-dark">MANOJKUMAR A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto nav-links">
@@ -16,7 +16,7 @@ function AppNavbar() {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Button className="lets-talk-btn mt-2 mt-md-0 ms-md-3">Let's Talk</Button>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
